@@ -27,6 +27,7 @@ article#login{
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.137);
     overflow: hidden;
+    transition: width, 0.3s , height 0.3s;
    
     
 }
@@ -36,11 +37,13 @@ div#imagen{
     background: black url(../imagens/pexels-pixabay-277559\ \(1\).jpg) no-repeat;
     background-position: bottom left;
     background-size: cover;
+    display: block;
    
 }
 
 div#form{
     padding: 10px;
+    display: block;
 }
 
 input{
