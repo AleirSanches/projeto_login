@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/medias_queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <main>
@@ -15,12 +17,33 @@
                 
 
             </div>
+
             <div id="form">
-                <h1>Formulario Login</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, atque eaque! Iste repellendus consectetur neque veritatis </p>
-                <form action="login.php" method="post"></form>
-                <input type="text" name="" id="">
-                <input type="password" name="senha" id="isenha">
+
+                <h1>Login</h1>
+                <p>Seja bem vido (a), faça seu login para acessar sua conta </p>
+
+                <form action="login.php" method="post">
+
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="email" id="iemail" required maxlength="20" size="15" class="inp" placeholder="Digite seu e-mail">
+                        <label for="iemail">Login</label>
+                    </div>
+
+                    <div class="campo">
+                        <span class="material-icons">&#xE87C;</span>
+                        <input type="password" name="senha" id="isenha" required minlength="5" maxlength="20" placeholder="Digite seua senha" size="15" class="inp">
+                        <label for="isenha">Senha</label>
+                        
+                    </div>
+
+                    
+                        <input type="submit" value="Login">
+                        <a href="#" >Esqueceu sua senha?</a>
+                    
+
+            </form>
 
             </div>
         </article>

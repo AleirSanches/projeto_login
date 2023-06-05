@@ -16,15 +16,16 @@
     div#imagen{
         float:left;
         height: 100%;
-        width: 35vw;
+        width: 50vw;
         
     }
-
     div#form {
         float: right;
-        width: 65vw;
+        width: 40%;
         height: 100%;
     }
+
+    
 
 }
 
@@ -42,18 +43,16 @@
         }
     
         div#imagen{
-            float:right;
+            float:left;
             height: 100%;
-            width: 35vw;
+            width: 50%
             
         }
-    
         div#form {
-            float: left;
-            width: 65vw;
+            float: right;
+            width: 40%;
             height: 100%;
         }
-
 
         
     }

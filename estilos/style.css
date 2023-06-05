@@ -14,6 +14,7 @@ body, html{
 
 h1{
     color: black;
+    text-align: center;
 }
 
 article#login{
@@ -30,6 +31,15 @@ article#login{
     transition: width, 0.3s , height 0.3s;
    
     
+}
+
+input.inp{
+    margin: 0px;
+    display: inline-block;
+}
+
+main > article > div > p {
+    padding: 10px;
 }
 
 div#imagen{
